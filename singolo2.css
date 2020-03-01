@@ -1,0 +1,146 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.section {
+    max-width: 1020px;
+    margin: auto;
+}
+
+.container {
+    max-width: 940px;
+    margin: auto;
+}
+
+
+/*section-portfolio*/
+
+.section-portfolio {
+    background-color: #2d303a;
+    border-bottom: 6px #323746 solid;
+}
+
+.portfolio_title {
+    padding: 68px 0 32px 0;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 17.86px;
+    color: #666d89;
+}
+
+.portfolio_text {
+    margin-bottom: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+}
+
+.portfolio_btn button {
+    margin: 0 10px 12px 0;
+    padding: 6px;
+    font-family: "Lato", sans-serif;
+    font-weight: 5000;
+    font-size: 18px;
+    line-height: 21.56px;
+    border-radius: 5px;
+    background-color: #2d303a;
+    color: #767e9e;
+    border: 1px solid #666d89;
+}
+
+.portfolio_btn button:last-child {
+    margin-right: 0px;
+}
+
+.portfolio_btn button:hover {
+    color: #dedede;
+    border: 1px solid #c5c5c5;
+    transition: all .3s linear;
+}
+
+.portfolio_img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 47px;
+}
+
+.portfolio_img_img {
+    padding: 0 20px 20px 0;
+}
+
+.portfolio_img_img:nth-child(4n) {
+    padding: 0 0 20px 0;
+}
+
+
+/*section-about*/
+
+.section-about {
+    background-color: #f2f2f2;
+    border-bottom: 6px #ffffff solid;
+}
+
+.about_title {
+    padding: 65px 0 30px 0;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 17.86px;
+    color: #666d89;
+}
+
+.about_text {
+    margin-bottom: 48px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    letter-spacing: -0.2px;
+}
+
+.about_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 73px;
+}
+
+.about_item {
+    padding-right: 20px;
+}
+
+.item_img {
+    margin-bottom: 20px;
+}
+
+.item_title {
+    margin-bottom: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17.86px;
+    color: #666d89;
+}
+
+.item_text {
+    margin-bottom: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.56px;
+    color: #767e9e;
+}
+
+.item_network a {
+    padding-right: 5px;
+}
+
+.item_network a:last-child {
+    padding-right: 0;
+}
