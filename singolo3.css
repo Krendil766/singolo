@@ -1,0 +1,121 @@
+/*section-get*/
+
+.section-get {
+    background-color: #f06c64;
+    border-bottom: 6px #ea676b solid;
+}
+
+.get_title {
+    padding: 69px 0 27px 0;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 17.86px;
+    color: #f0d8d9;
+}
+
+.get_text {
+    margin-bottom: 46px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+}
+
+.get_inform {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.get_form {
+    width: 620px;
+    margin-right: 20px;
+    margin-bottom: 67px;
+}
+
+.get_form input {
+    width: 604px;
+    background-color: #d6564f;
+    border-radius: 5px;
+    border-width: 0;
+    padding: 7px 0 9px 15px;
+    margin-bottom: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.56px;
+}
+
+.get_form input:nth-child(4n) {
+    padding: 7px 0 175px 15px;
+}
+
+.get_form input::placeholder {
+    color: #f48c8f;
+}
+
+.get_form input:last-child {
+    width: 100px;
+    background-color: #f0d8d9;
+    padding: 5px 0;
+}
+
+.get_aside_title {
+    color: #f0d8d9;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17.86px;
+    margin-bottom: 9px;
+}
+
+.get_aside_text {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.56px;
+    color: #f0d8d9;
+    letter-spacing: -0.2px;
+    margin-bottom: 23px;
+}
+
+.get_aside_contact {
+    padding-left: 3px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.56px;
+    color: #f0d8d9;
+    cursor: pointer;
+}
+
+.get_aside_contact a {
+    color: #f0d8d9;
+}
+
+.get_aside_contact span {
+    padding-right: 12px;
+}
+
+
+/*section-footer*/
+
+.section-footer {
+    background-color: #2d303a;
+}
+
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_text {
+    color: #666d89;
+}
+
+.footer_network a img {
+    margin: 22px 0;
+}
