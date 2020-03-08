@@ -134,3 +134,8 @@ body {
 .footer_network a img {
     margin: 22px 0;
 }
+
+.footer_network a img:hover {
+    border: 2px solid;
+    transition: all .3s linear;
+}
